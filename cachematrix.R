@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
         ##set() function enables the user to enter a valid matrix
         set <- function(y){
                 if(class(y)!="matrix"){
-                        message("Please enter a valid matrix")}
+                        message("Please enter a valid matrix!")}
                 else{   x <<- y
                         i <<- NULL}
         }
